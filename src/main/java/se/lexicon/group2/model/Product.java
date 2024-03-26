@@ -2,14 +2,14 @@ package se.lexicon.group2.model;
 
 public abstract class Product {
 private static int sequencer = 0;
-private final int id;
-private final double price;
+private int id;
+private double price;
 private String productName;
 
     public Product(double price, String productName) {
         this.id = getNextId();
-        this.price = price;
         this.productName = productName;
+        this.price = price;
     }
 
     public void setPrice(double price) {
