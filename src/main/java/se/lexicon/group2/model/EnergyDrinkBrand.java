@@ -1,14 +1,14 @@
 package se.lexicon.group2.model;
 
-public enum coffeeBrand {
-    BOSS(15, "BOSS Canned Coffee"),
-    KONA(17, "Kona Canned Coffee with Milk"),
-    HIGHBREW(15, "HighBrew Canned Coffee Sugar Free");
+public enum EnergyDrinkBrand {
+    REDBULL(15, "Redbull Energy Drink"),
+    CELCIUS(17, "Celcius Canned Coffee with Milk"),
+    MONSTER(15, "Monster Energy Drink");
 
     private final double price;
     private final String name;
 
-    coffeeBrand(double price, String name){
+    EnergyDrinkBrand(double price, String name){
         this.price = price;
         this.name = name;
     }
@@ -21,6 +21,4 @@ public enum coffeeBrand {
     public String getName(){
         return name;
     }
-
-
 }

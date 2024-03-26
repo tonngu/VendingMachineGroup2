@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0adba0ed-5da0-45ff-a17f-f3eb12fbf258" name="Changes" comment="Defined VendingMachine implement class">
+    <list default="true" id="0adba0ed-5da0-45ff-a17f-f3eb12fbf258" name="Changes" comment="Defined VendingMachine interface implement class and its methods">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/EnergyDrinkBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/WaterBrand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/CurrencyAmount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachineOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachineOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/coffeeBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/coffeeBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/energyDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/EnergyDrink.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +112,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711460564355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Defined VendingMachine interface implement class and its methods">
+      <option name="closed" value="true" />
+      <created>1711473925293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711473925294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Defined Coffee class and coffeeBrand enum and added VendingMachine interface" />
     <MESSAGE value="Defined VendingMachine interface" />
     <MESSAGE value="Defined VendingMachine implement class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined VendingMachine implement class" />
+    <MESSAGE value="Defined VendingMachine interface implement class and its methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined VendingMachine interface implement class and its methods" />
   </component>
 </project>
