@@ -1,14 +1,25 @@
 package se.lexicon.group2.model;
 
+import se.lexicon.group2.model.Product;
+
 import java.util.Arrays;
 
 public class VendingMachineOrder implements VendingMachine {
-    private Product[] products;
-    private int depositPool;
+    private Product[] products = new Product[0];
+    private int depositPool; //shouldn't this be double instead of int?
 
     @Override
-    public void addCurrency(CurrencyAmount) {
-        depositPool = depositPool + CurrencyAmount;
+    public void addCurrency(int amount) {
+        int[] allowedAmounts = {1, 2, 5, 10, 20, 50, 100, 200, 500, 1000};
+        int depositCheck = depositPool;
+        for (int value : allowedAmounts) {
+            if (amount == value) {
+                depositPool = depositPool + amount;
+            }
+        }
+        if (depositCheck == depositPool){
+            throw new IllegalArgumentException("Only allowed amounts are: 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000)");
+        }
     }
 
     @Override
@@ -18,14 +29,14 @@ public class VendingMachineOrder implements VendingMachine {
 
     @Override
     public Product request(Product id) {
-        if(depositPool >= id.getPrice()){
+        if (depositPool >= id.getPrice()) {
+            depositPool = (int) (depositPool - id.getPrice()); //why according to UML product price is required to be double but deposits are int?
             Product[] copiedProductsArray = new Product[products.length + 1];
             System.arraycopy(products, 0, copiedProductsArray, 0, products.length);
             copiedProductsArray[copiedProductsArray.length - 1] = id;
             products = copiedProductsArray;
             return id;
-        }
-        else throw new IllegalArgumentException("Not enough money added to the deposit pool.");
+        } else throw new IllegalArgumentException("Not enough money added to the deposit pool.");
     }
 
     @Override
@@ -42,6 +53,10 @@ public class VendingMachineOrder implements VendingMachine {
 
     @Override
     public String[] getProducts() {
-        return Arrays.copyOf[products,products.length];
+        String[] getProductsArray = new String[products.length];
+        for (int i = 0; i < products.length; i++) {
+            getProductsArray[i] = products[i].use();
+        }
+        return getProductsArray;
     }
 }

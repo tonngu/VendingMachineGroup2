@@ -10,12 +10,12 @@ public Coffee(coffeeBrand brand, boolean isCold){
 
 @Override
 public String examine(){
-    return "{ " + "Name: " + getProductName() + ", Price: " + getPrice() + ", Cold: " + isCold + " , Id:" + getId()" }";
+    return "{ " + "Name: " + getProductName() + ", Price: " + getPrice() + ", Cold: " + isCold + " , Id:" + getId()+ " }";
 }
 
 @Override
     public String use() {
-    return "Item: " + getProductName() + ", Price: SEK " + getPrice() + ", Cold: " + isCold;
+    return "Item: " + getProductName() + ", Price: SEK " + getPrice() + " , Id:" + getId();
 }
 
 }
