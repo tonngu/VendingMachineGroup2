@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0adba0ed-5da0-45ff-a17f-f3eb12fbf258" name="Changes" comment="Defined Coffee class and coffeeBrand enum and added VendingMachine interface">
+    <list default="true" id="0adba0ed-5da0-45ff-a17f-f3eb12fbf258" name="Changes" comment="Defined VendingMachine interface">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/CurrencyAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachineOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/group2/model/VendingMachineImplement.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -90,11 +94,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711455998818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Defined VendingMachine interface">
+      <option name="closed" value="true" />
+      <created>1711457026988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711457026988</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Defined Coffee class and coffeeBrand enum and added VendingMachine interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined Coffee class and coffeeBrand enum and added VendingMachine interface" />
+    <MESSAGE value="Defined VendingMachine interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined VendingMachine interface" />
   </component>
 </project>
